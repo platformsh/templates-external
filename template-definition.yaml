@@ -30,7 +30,7 @@ info:
     # A list of tags associated with the template.  These should be highly generic terms like "CMS", "Framework", and
     # the language in which the application is written.
     tags:
-        - PHP
+        - PRIMARY LANGUAGE
         - CMS
     # An image URI (either base64-encoded or a URL) representing the template.  Base64-encoded SVG strongly preferred.
     image: data:image/svg+xml;...
@@ -53,4 +53,4 @@ initialize:
     repository: git://github.com/USER/PROJECT.git@master
     config: null
     files: []
-    profile: PHP
+    profile: PRODUCT

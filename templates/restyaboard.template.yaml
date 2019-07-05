@@ -44,4 +44,4 @@ initialize:
     repository: https://github.com/RestyaPlatform/template-restyaboard.git@master
     config: null
     files: []
-    profile: PHP
+    profile: Restyaboard

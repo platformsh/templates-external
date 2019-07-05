@@ -1,4 +1,4 @@
-# Management tool for the Platform.sh Templates
+# Third-Party Platform.sh Templates
 
 This repository includes an index of third-party-maintained project templates for Platform.sh.
 

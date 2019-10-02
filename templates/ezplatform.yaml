@@ -8,11 +8,11 @@ info:
     # The human-readable name of the template.
     name: eZ Platform 2.5.5
     # Human-readable descriptive text for the template. Supports limited HTML.
-    description: The latest version of <b>eZ Platform</b> without customization. Perfect to start a new project.
+    description: The latest version of <b>eZ Platform</b> without customization. Good for starting a new project.
     # A list of tags associated with the template.
     tags:
         - PHP
-        - eZ
+        - eZ Platform
         - CMS
         - Symfony
     # An image URI (either base64-encoded or a URL) representing the template.

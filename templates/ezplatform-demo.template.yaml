@@ -4,11 +4,11 @@ version: 1
 # Templates are a small amount of information supporting a template URL. Each template is selectable at the project-creation step.
 info:
     # Unique machine name, prefaced by a vendor or organization identifier
-    id: ezsystems/ezplatform-demo
+    id: ezsystems/ezplatform-demo-v2
     # The human-readable name of the template.
-    name: eZ Platform Demo 2.5.5
+    name: eZ Platform Demo v2
     # Human-readable descriptive text for the template. Supports limited HTML.
-    description: The latest demo of <b>eZ Platform</b>.
+    description: The latest demo of <b>eZ Platform</b> (v2.5.5).
     # A list of tags associated with the template.
     tags:
         - PHP
@@ -34,4 +34,4 @@ initialize:
     repository: git://github.com/ezsystems/ezplatform-demo.git@v2.5.5
     config: null
     files: []
-    profile: eZ Platform Demo v2.5.5
+    profile: eZ Platform Demo v2

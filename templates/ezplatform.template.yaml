@@ -8,7 +8,7 @@ info:
     # The human-readable name of the template.
     name: eZ Platform v2
     # Human-readable descriptive text for the template. Supports limited HTML.
-    description: The latest version of <b>eZ Platform</b> (v2.5.6) without customization. Good for starting a new project.
+    description: The latest version of <b>eZ Platform</b> (v2.5.8) without customization. Good for starting a new project.
     # A list of tags associated with the template.
     tags:
         - PHP
@@ -17,7 +17,7 @@ info:
         - Symfony
     # An image URI (either base64-encoded or a URL) representing the template.
     image: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDIzLjAuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCAzMSAzMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzEgMzE7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHN0eWxlIHR5cGU9InRleHQvY3NzIj4KCS5zdDB7ZmlsbDpub25lO30KCS5zdDF7ZmlsbDojRjE1QjI1O30KPC9zdHlsZT4KPGc+Cgk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjI1LjMsMTEuMiAyNS4zLDIgMiwyIDIsMjUuMyAxMS4yLDI1LjMgMTEuMiwxMS4yIAkiLz4KCTxwb2x5Z29uIHBvaW50cz0iMiwyNS4zIDIsMiAyNS4zLDIgMjUuMywxMS4yIDI3LjMsMTEuMiAyNy4zLDAgMCwwIDAsMjcuMyAxMS4yLDI3LjMgMTEuMiwyNS4zIAkiLz4KCTxwYXRoIGQ9Ik0yNy4zLDExLjJoLTJIMTEuMnYxNC4xdjJWMzFIMzFWMTEuMkgyNy4zeiBNMjksMjlIMTMuMnYtMS43di0yVjEzLjJoMTIuMWgySDI5VjI5eiIvPgo8L2c+CjxyZWN0IHg9IjEzLjIiIHk9IjEzLjIiIGNsYXNzPSJzdDEiIHdpZHRoPSIxNS44IiBoZWlnaHQ9IjE1LjgiLz4KPC9zdmc+Cg=="
-  
+
     # Additional notes displayed in the template's detail view.
     # Each note object is displayed as a small section heading with content below. Supports limited HTML.
     notes:
@@ -31,7 +31,7 @@ info:
 # this key also gets mapped to the appropriate location in project.settings so
 # that the current UI can have its own workflow overridden as well.
 initialize:
-    repository: git://github.com/ezsystems/ezplatform.git@v2.5.6
+    repository: git://github.com/ezsystems/ezplatform.git@v2.5.8
     config: null
     files: []
     profile: eZ Platform v2

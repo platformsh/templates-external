@@ -8,7 +8,7 @@ info:
     # The human-readable name of the template.
     name: eZ Platform v2
     # Human-readable descriptive text for the template. Supports limited HTML.
-    description: The latest version of <b>eZ Platform</b> (v2.5.8) without customization. Good for starting a new project.
+    description: The latest version of <b>eZ Platform</b> (v2.5.9) without customization. Good for starting a new project.
     # A list of tags associated with the template.
     tags:
         - PHP
@@ -31,7 +31,7 @@ info:
 # this key also gets mapped to the appropriate location in project.settings so
 # that the current UI can have its own workflow overridden as well.
 initialize:
-    repository: git://github.com/ezsystems/ezplatform.git@v2.5.8
+    repository: git://github.com/ezsystems/ezplatform.git@v2.5.9
     config: null
     files: []
     profile: eZ Platform v2

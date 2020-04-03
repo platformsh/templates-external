@@ -4,11 +4,11 @@ version: 1
 # Templates are a small amount of information supporting a template URL. Each template is selectable at the project-creation step.
 info:
     # Unique machine name, prefaced by a vendor or organization identifier
-    id: ezsystems/ezplatform-v3-beta
+    id: ezsystems/ezplatform-v3
     # The human-readable name of the template.
-    name: eZ Platform v3-beta
+    name: eZ Platform v3
     # Human-readable descriptive text for the template. Supports limited HTML.
-    description: The latest beta of <b>eZ Platform</b> (v3.0.0-beta5) without customization. Good for testing the next features of eZ Platform.
+    description: The latest of <b>eZ Platform</b> (v3.0.0) without customization. Good for testing the next features of eZ Platform.
     # A list of tags associated with the template.
     tags:
         - PHP
@@ -31,7 +31,7 @@ info:
 # this key also gets mapped to the appropriate location in project.settings so
 # that the current UI can have its own workflow overridden as well.
 initialize:
-    repository: git://github.com/ezsystems/ezplatform.git@v3.0.0-beta5
+    repository: git://github.com/ezsystems/ezplatform.git@v3.0.0
     config: null
     files: []
-    profile: eZ Platform v3-beta
+    profile: eZ Platform v3

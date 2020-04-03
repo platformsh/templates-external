@@ -8,7 +8,7 @@ info:
     # The human-readable name of the template.
     name: eZ Platform v3
     # Human-readable descriptive text for the template. Supports limited HTML.
-    description: The latest of <b>eZ Platform</b> (v3.0.0) without customization. Good for testing the next features of eZ Platform.
+    description: The latest <b>eZ Platform</b> (v3.0.0) without customization. Good for testing the next features of eZ Platform.
     # A list of tags associated with the template.
     tags:
         - PHP

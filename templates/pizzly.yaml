@@ -8,7 +8,9 @@ info:
     # The human-readable name of the template.
     name: Pizzly 
     # Human-readable descriptive text for the template. Supports limited HTML.
-    description: The simplest, fatest way to integrate your app with an OAuth API 
+    description: |
+        <p>This template builds a Pizzly OAuth instance on Platform.sh, with the database already configured.</p>
+        <p>Pizzly is an integrated OAuth proxy to ease integrating your application with OAuth.</p>
     # A list of tags associated with the template.
     tags:
         - Nodejs
@@ -19,8 +21,12 @@ info:
     # Additional notes displayed in the template's detail view.
     # Each note object is displayed as a small section heading with content below. Supports limited HTML.
     notes:
-        - heading: "Apps & Services"
-          content: "Nodejs 12<br/>Postgres 12"
+        - heading: "Features"
+            content: |
+                Nodejs 12<br/>
+                Postgres 12<br />
+                Automatic TLS certificates<br />
+                Yarn-based build<br />
 
 # This key describes the initialization call made to the master environment at
 # project creation time. This is part of the full v2 UI operation mode, which
@@ -29,7 +35,7 @@ info:
 # this key also gets mapped to the appropriate location in project.settings so
 # that the current UI can have its own workflow overridden as well.
 initialize:
-    repository: git@github.com:Bearer/Pizzly.git
+    repository: git://github.com/Bearer/Pizzly.git
     config: null
     files: []
     profile: Pizzly

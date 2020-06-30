@@ -20,7 +20,9 @@ info:
     # The human-readable name of the template.
     name: Restyaboard
     # Human-readable descriptive text for the template. Supports limited HTML.
-    description: Open source alternative to Trello. Trello like kanban board. Tasks, to-dos, chat, etc.
+    description: |
+        <p>This template builds Restyaboard on Platform.sh. The site will be automatically installed on first deploy.</p>
+        <p>Restyaboard is an open source alternative to Trello. It offers tasks, to-dos, chat, a kanban board, etc.</p>
     # A list of tags associated with the template.
     tags:
         - PHP
@@ -30,9 +32,12 @@ info:
     # Additional notes displayed in the template's detail view.
     # Each note object is displayed as a small section heading with content below. Supports limited HTML.
     notes:
-        - heading: "Apps & Services"
-          content: "PHP 7.2<br/>Postgresql 9.6"
-
+        - heading: "Features"
+            content: |
+                PHP 7.2<br />
+                Postgresql 9.6<br />
+                Automatic TLS certificates<br />
+                Composer-based build<br />
 
 # This key describes the initialization call made to the master environment at
 # project creation time. This is part of the full v2 UI operation mode, which

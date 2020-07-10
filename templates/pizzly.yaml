@@ -22,7 +22,7 @@ info:
     # Each note object is displayed as a small section heading with content below. Supports limited HTML.
     notes:
         - heading: "Features"
-            content: |
+          content: |
                 Nodejs 12<br/>
                 Postgres 12<br />
                 Automatic TLS certificates<br />

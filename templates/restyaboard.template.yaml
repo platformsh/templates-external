@@ -33,7 +33,7 @@ info:
     # Each note object is displayed as a small section heading with content below. Supports limited HTML.
     notes:
         - heading: "Features"
-            content: |
+          content: |
                 PHP 7.2<br />
                 Postgresql 9.6<br />
                 Automatic TLS certificates<br />

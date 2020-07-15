@@ -9,7 +9,7 @@ info:
     name: eZ Platform v3
     # Human-readable descriptive text for the template. Supports limited HTML.
     description: |
-        <p>The latest <b>eZ Platform</b> (v3.0.3) without customization.  That makes it a good starting point for the latest-and-greatest.  The site will be installed automatically on first deploy.</p>
+        <p>The latest <b>eZ Platform</b> (v3.1.0) without customization.  That makes it a good starting point for the latest-and-greatest.  The site will be installed automatically on first deploy.</p>
     # A list of tags associated with the template.
     tags:
         - PHP
@@ -25,8 +25,8 @@ info:
         - heading: "Features"
           content: |
               PHP 7.3<br />
-              MySQL 10.2<br />
-              Redis 3.2<br />
+              MySQL 10.4<br />
+              Redis 5.0<br />
               Varnish 6.0<br />
               Automatic TLS certificates<br />
               Composer-based build<br />
@@ -38,7 +38,7 @@ info:
 # this key also gets mapped to the appropriate location in project.settings so
 # that the current UI can have its own workflow overridden as well.
 initialize:
-    repository: git://github.com/ezsystems/ezplatform.git@v3.0.3
+    repository: git://github.com/ezsystems/ezplatform.git@v3.1.0
     config: null
     files: []
     profile: eZ Platform v3

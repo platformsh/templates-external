@@ -9,7 +9,7 @@ info:
     name: eZ Platform v2
     # Human-readable descriptive text for the template. Supports limited HTML.
     description: |
-        <p>This template builds the latest version of <b>eZ Platform</b> (v2.5.9) without customization.  That makes it a good starting point for a new project.  The site will be installed automatically on first deploy.</p>
+        <p>This template builds the latest version of <b>eZ Platform</b> (v2.5.12) without customization.  That makes it a good starting point for a new project.  The site will be installed automatically on first deploy.</p>
     # A list of tags associated with the template.
     tags:
         - PHP
@@ -26,7 +26,7 @@ info:
           content: |
                 PHP 7.3<br />
                 MySQL 10.2<br />
-                Redis 3.2<br />
+                Redis 5.0<br />
                 Varnish 6.0<br />
                 Automatic TLS certificates<br />
                 Composer-based build<br />
@@ -38,7 +38,7 @@ info:
 # this key also gets mapped to the appropriate location in project.settings so
 # that the current UI can have its own workflow overridden as well.
 initialize:
-    repository: git://github.com/ezsystems/ezplatform.git@v2.5.9
+    repository: git://github.com/ezsystems/ezplatform.git@v2.5.12
     config: null
     files: []
     profile: eZ Platform v2

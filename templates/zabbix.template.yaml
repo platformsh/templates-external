@@ -10,7 +10,7 @@ info:
     name: Zabbix
     # Human-readable descriptive text for the template. Supports limited HTML.
     description: |
-        <p><b>Zabbix</b> (5.2.0) with the Platform.sh Zabbix tempalte made by <a href="https://www.contextualcode.com/" target="_blank">Contextual Code</a> team. You can add any PHP application on top of this template.</p>
+        <p>This template provides <b>Zabbix (5.2.0)</b> support. You can add any PHP application on top of this template. <br> The Platform.sh Zabbix template is made by <a href="https://www.contextualcode.com/" target="_blank">Contextual Code</a> team. <br> Zabbix is an open source monitoring solution.</p>
     # A list of tags associated with the template.
     tags:
         - PHP

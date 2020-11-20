@@ -22,7 +22,7 @@ info:
     # The most important is a section that lists the "Apps and Services" (container images) that the project uses.
     # These are the name/version of the Platforms.h containers, not including the Nginx router.
     notes:
-        - heading: "Apps & Services"
+        - heading: "Features"
           content: |
               PHP 7.4<br />
               MySQL 10.4<br />

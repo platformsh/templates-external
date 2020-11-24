@@ -4,7 +4,7 @@ version: 1
 # Templates are a small amount of information supporting a template URL. Each template is selectable at the project-creation step.
 info:
   # Unique machine name, prefaced by a vendor or organization identifier
-  id: OpenideaL/OpenideaL.v3
+  id: openideal/openideal
   # The human-readable name of the template.
   name: OpenideaL
   # Human-readable descriptive text for the template. Supports limited HTML.

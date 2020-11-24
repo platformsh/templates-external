@@ -9,7 +9,7 @@ info:
   name: OpenideaL
   # Human-readable descriptive text for the template. Supports limited HTML.
   description: |
-    <p><strong>OpenideaL<strong> (OI) is the leading open source ideas and innovation management system.</p>
+    <p><strong>OpenideaL<strong> (OI) is a leading open source ideas and innovation management system.</p>
     <p>Out of the box it provides an ideation community where citizens, employees, clients or any other group of stake holders can create, discuss, rate and promote ideas.</p>
     <p>OpenideaL includes tools for the website managers which allow them to identify <em>successful</em> ideas and to pass them along to professional teams within the organization. Community members are rewarded with points for their activity in the system.</p>
   # A list of tags associated with the template.

@@ -23,7 +23,7 @@ info:
     notes:
         - heading: "Features"
           content: |
-                Nodejs 12<br/>
+                Node.js 12<br/>
                 Postgres 12<br />
                 Automatic TLS certificates<br />
                 Yarn-based build<br />

@@ -37,7 +37,7 @@ info:
     # Additional notes displayed in the template's detail view.
     # Each note object is displayed as a small section heading with content below. Supports limited HTML.
     # The most important is a section that lists the "Apps and Services" (container images) that the project uses.
-    # These are the name/version of the Platforms.h containers, not including the Nginx router.
+    # These are the name/version of the Platform.sh containers, not including the Nginx router.
     notes:
         - heading: "Apps & Services"
           content: "PHP 7.2<br/>Postgresql 9.6"

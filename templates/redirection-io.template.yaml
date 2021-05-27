@@ -1,0 +1,63 @@
+# Platform.sh Project Initialization Template
+#
+# This file defines settings and workflow modifications that allow a git
+# repository to be deployed to Platform.sh and its white-label partners. A
+# project template can be a fully functioning ready-made application or a
+# quick-start point for custom development work.
+#
+# It contains elements that affect the behaviour upon the initialisation of
+# a new project (for example minimal plan sizes) as well as elements that
+# allow Platform.sh to present it in a user interface (such as the description
+# of the project, tags, an icon etc.).
+
+# The schema is versioned so that we can establish code paths differently in the future if we need to change this.
+version: 1
+
+# Templates are a small amount of information supporting a template URL.
+# Each template is selectable at the project-creation step.
+info:
+    # Unique machine name, prefaced by a vendor or organization identifier.
+    # The vendor should be the lowercase name of your company, organization, or project, and the project name
+    # the lowercase name of the template. This may be the same as the vendor in a single-product case.
+    id: redirectionio/redirectionio
+    # The human-readable name of the template.  This is how the template will be named in the user interface.
+    name: redirection.io
+    # Human-readable descriptive text for the template. Supports limited HTML.
+    description: |
+        <p>This template builds enables a redirection.io agent on Platform.sh. The redirectionio-agent runs as a reverse proxy, that proxifies all the requests to your own application</p>
+    # A list of tags associated with the template.  These should be highly generic terms like "CMS", "Framework", and
+    # the language in which the application is written.
+    tags:
+        - HTTP
+        - marketing
+        - monitoring
+        - redirection
+        - SEO
+    # An image URI (either base64-encoded or a URL) representing the template.  Base64-encoded SVG strongly preferred.
+    image: data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwMCIgaGVpZ2h0PSIxMDAwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik01MDAuMDQ0IDEwMDAuMDljMjc2LjE2NyAwIDUwMC4wNDYtMjIzLjg3OSA1MDAuMDQ2LTUwMC4wNDZDMTAwMC4wOSAyMjMuODc3IDc3Ni4yMTEgMCA1MDAuMDQ0IDAgMjIzLjg3NyAwIDAgMjIzLjg3NyAwIDUwMC4wNDRzMjIzLjg3NyA1MDAuMDQ2IDUwMC4wNDQgNTAwLjA0NnoiIGZpbGw9IiMwM0E5RjQiLz48cGF0aCBkPSJNNzYyLjU5NiA2MTUuNDA1YTMxLjEgMzEuMSAwIDAgMC0yMi4wODctOS40NjUgMzEuMDg5IDMxLjA4OSAwIDAgMC0yOC44MyA0My4zMzcgMzEuMSAzMS4xIDAgMCAwIDYuOTUzIDEwLjA5MmwzLjY5MyAzLjY5M2MtNjUuNTk0LTEyLjEzNC0xMjYuNjE2LTUzLjU0OC0xNzQuOTc2LTExOS40OTRsLTI3Ljg3My0zNy45ODUgMjcuODczLTM3Ljk4NGM0OC40NDgtNjUuOTQ2IDEwOS40Ny0xMDcuMzYgMTc0Ljk3Ni0xMTkuNDk0bC0zLjY5MyAzLjY5M2EzMS4wOSAzMS4wOSAwIDAgMCA0My45NjQgNDMuOTY0bDYwLjMxOC02MC4zMThhMzAuOTY1IDMwLjk2NSAwIDAgMCA5LjE2Mi0yMS45ODIgMzAuOTQ0IDMwLjk0NCAwIDAgMC05LjE2Mi0yMS45ODJsLTYwLjMxOC02MC4zMThhMzEuMDkxIDMxLjA5MSAwIDAgMC00My45NjQgNDMuOTYzbDkuNjcyIDkuNjcyYy04Ny4xMzYgMTAuOTkxLTE2OS43ODggNjIuOTU2LTIzMC45ODYgMTQ2LjRsLTE2LjM1NCAyMi4zMzMtMTYuMzU1LTIyLjMzM2MtNjkuMTExLTk1LjMxNC0xNjYuMDA3LTE0OS4xMjUtMjY1LjYyOS0xNDkuMTI1YTMwLjk1MSAzMC45NTEgMCAwIDAgMCA2MS41NDljODAuODkzIDAgMTU3LjQ3OCA0My45NjQgMjE1Ljg2MiAxMjMuMDk4bDI3Ljg3MyAzNy45ODUtMjcuODczIDM3Ljk4NWMtNTguMzg0IDc5LjEzNS0xMzQuOTY5IDEyMy4wOTgtMjE1Ljg2MiAxMjMuMDk4YTMwLjk1NCAzMC45NTQgMCAwIDAtMjcuNjU2IDMwLjc3NSAzMC45NTMgMzAuOTUzIDAgMCAwIDI3LjY1NiAzMC43NzVjOTkuNjIyIDAgMTk2LjUxOC01NC4xNjQgMjY1LjgwNS0xNDguNTk4bDE2LjM1NS0yMi4zMzMgMTYuMzU0IDIyLjMzM2M2MS41NDkgODMuMzU1IDE0My44NSAxMzUuMzIxIDIzMC45ODYgMTQ2LjRsLTkuNjcyIDkuNjcyYTMxLjA5NiAzMS4wOTYgMCAwIDAtOS40NjUgMjIuMDg2IDMxLjA4OSAzMS4wODkgMCAwIDAgNDMuMzM3IDI4LjgzIDMxLjEgMzEuMSAwIDAgMCAxMC4wOTItNi45NTNsNjAuMzE4LTYwLjMxOGEzMC45NiAzMC45NiAwIDAgMCA5LjE2Mi0yMS45ODIgMzAuOTYgMzAuOTYgMCAwIDAtOS4xNjItMjEuOTgybC02MC40OTQtNTkuMDg3eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPgo=
+    # Additional notes displayed in the template's detail view.
+    # Each note object is displayed as a small section heading with content below. Supports limited HTML.
+    # The most important is a section that lists the "Apps and Services" (container images) that the project uses.
+    # These are the name/version of the Platform.sh containers, not including the Nginx router.
+    notes:
+        - heading: "Features"
+          content: |
+                HTTP traffic logs<br/>
+                redirection rules<br />
+                wildcard rules<br />
+                SEO errors correction<br />
+        - heading: "Apps & Services"
+          content: "golang 1.15"
+
+
+# This key describes the initialization call made to the master environment at
+# project creation time. This is part of the full v2 UI operation mode, which
+# places project schema/options selection early in the creation process, rather
+# than later as it exits now. To allow this schema to be backwards-compatible,
+# this key also gets mapped to the appropriate location in project.settings so
+# that the current UI can have its own workflow overridden as well.
+initialize:
+    repository: git://github.com/redirectionio/platformsh-template.git@master
+    config: null
+    files: []
+    profile: redirection.io

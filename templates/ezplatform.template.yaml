@@ -9,7 +9,7 @@ info:
     name: eZ Platform v2
     # Human-readable descriptive text for the template. Supports limited HTML.
     description: |
-        <p>This template builds the latest version of <b>eZ Platform</b> (v2.5.12) without customization.  That makes it a good starting point for a new project.  The site will be installed automatically on first deploy.</p>
+        <p>This template builds the latest version of <b>eZ Platform</b> (v2.5.25) without customization.  That makes it a good starting point for a new project.  The site will be installed automatically on first deploy.</p>
     # A list of tags associated with the template.
     tags:
         - PHP

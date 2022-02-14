@@ -23,7 +23,7 @@ info:
           content: "golang 1.15"
 
 initialize:
-    repository: git://github.com/redirectionio/platformsh-template.git@master
+    repository: https://github.com/redirectionio/platformsh-template.git@master
     config: null
     files: []
     profile: redirection.io

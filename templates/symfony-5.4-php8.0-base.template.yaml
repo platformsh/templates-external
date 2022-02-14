@@ -21,7 +21,7 @@ info:
           PHP 8.0<br />
           Automatic TLS certificates<br />
 initialize:
-  repository: git://github.com/symfonycorp/platformsh-symfony-template.git@5.4-php8.0-base
+  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@sf5.4-php8.0-base
   config: null
   files: []
   profile: Symfony 5.4 ("base skeleton" on PHP 8.0)

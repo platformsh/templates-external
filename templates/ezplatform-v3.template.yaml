@@ -9,7 +9,7 @@ info:
     name: eZ Platform v3
     # Human-readable descriptive text for the template. Supports limited HTML.
     description: |
-        <p>The latest <b>eZ Platform</b> (v3.2.8) without customization.  That makes it a good starting point for the latest-and-greatest.  The site will be installed automatically on first deploy.</p>
+        <p>The latest <b>eZ Platform</b> (v3.3.8) without customization.  That makes it a good starting point for the latest-and-greatest.  The site will be installed automatically on first deploy.</p>
     # A list of tags associated with the template.
     tags:
         - PHP
@@ -38,7 +38,7 @@ info:
 # this key also gets mapped to the appropriate location in project.settings so
 # that the current UI can have its own workflow overridden as well.
 initialize:
-    repository: git://github.com/ezsystems/ezplatform.git@v3.2.8
+    repository: git://github.com/ezsystems/ezplatform.git@v3.3.8
     config: null
     files: []
     profile: eZ Platform v3

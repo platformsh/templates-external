@@ -1,8 +1,8 @@
 version: 1
 
 info:
-  id: symfonycorp/6.0-php8.1-webapp
-  name: Symfony 6.0 ("webapp" on PHP 8.1)
+  id: symfonycorp/sf6.0-php8.1-webapp
+  name: Symfony 6.0/PHP 8.1/webapp
   description: |
       <p>This template provides a Symfony 6.0 skeleton based on the webapp skeleton.</p>
       <p>It is intended for you to use as a starting point and modify for your own needs.</p>

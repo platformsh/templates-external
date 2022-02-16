@@ -1,8 +1,8 @@
 version: 1
 
 info:
-  id: symfonycorp/5.4-php8.1-base
-  name: Symfony 5.4 ("base skeleton" on PHP 8.1)
+  id: symfonycorp/sf5.4-php8.1-base
+  name: Symfony 5.4/PHP 8.1/base
   description: |
       <p>This template provides a Symfony 5.4 skeleton based on the base skeleton.</p>
       <p>It is intended for you to use as a starting point and modify for your own needs.</p>

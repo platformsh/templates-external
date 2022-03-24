@@ -39,7 +39,7 @@ info:
 # this key also gets mapped to the appropriate location in project.settings so
 # that the current UI can have its own workflow overridden as well.
 initialize:
-  repository: git://github.com/Vardot/platformsh-varbase.git@master
+  repository: https://github.com/Vardot/platformsh-varbase.git@master
   config: null
   files: []
   profile: Varbase

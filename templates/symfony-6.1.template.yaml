@@ -1,12 +1,12 @@
 version: 1
 
 info:
-  id: symfonycorp/sf6.0-php8.0-base
-  name: Symfony 6.0/PHP 8.0/base
+  id: symfonycorp/sf6.1-php8.1-webapp
+  name: Symfony 6.1/PHP 8.1/webapp
   description: |
-      <p>This template provides a Symfony 6.0 skeleton based on the base skeleton.</p>
+      <p>This template provides a Symfony 6.1 skeleton based on the webapp skeleton.</p>
       <p>It is intended for you to use as a starting point and modify for your own needs.</p>
-      <p>It comes bare-bones, with nothing pre-configured.</p>
+      <p>It comes pre-configured with a lot of Symfony packages, including Symfony Messenger and PostgreSQL via Doctrine.</p>
   tags:
   - PHP
   - Symfony
@@ -16,12 +16,13 @@ info:
   notes:
     - heading: "Features"
       content: |
-          Symfony 6.0<br />
-          The default skeleton package that includes the bare minimum to get started<br />
-          PHP 8.0<br />
+          Symfony 6.1<br />
+          The webapp package that includes most of the needed features for developing web applications<br />
+          PHP 8.1<br />
+          PostgreSQL 13<br />
           Automatic TLS certificates<br />
 initialize:
-  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@sf6.0-php8.0-base
+  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@sf6.1-php8.1-webapp
   config: null
   files: []
-  profile: Symfony 6.0 ("base skeleton" on PHP 8.0)
+  profile: Symfony 6.1 ("webapp" on PHP 8.1)

@@ -1,10 +1,10 @@
 version: 1
 
 info:
-  id: symfonycorp/sf6.0-php8.1-base
-  name: Symfony 6.0/PHP 8.1/base
+  id: symfonycorp/sf6.1-php8.1-base
+  name: Symfony 6.1/PHP 8.1/base
   description: |
-      <p>This template provides a Symfony 6.0 skeleton based on the base skeleton.</p>
+      <p>This template provides a Symfony 6.1 skeleton based on the base skeleton.</p>
       <p>It is intended for you to use as a starting point and modify for your own needs.</p>
       <p>It comes bare-bones, with nothing pre-configured.</p>
   tags:
@@ -16,12 +16,12 @@ info:
   notes:
     - heading: "Features"
       content: |
-          Symfony 6.0<br />
+          Symfony 6.1<br />
           The default skeleton package that includes the bare minimum to get started<br />
           PHP 8.1<br />
           Automatic TLS certificates<br />
 initialize:
-  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@sf6.0-php8.1-base
+  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@sf6.1-php8.1-base
   config: null
   files: []
-  profile: Symfony 6.0 ("base skeleton" on PHP 8.1)
+  profile: Symfony 6.1 ("base skeleton" on PHP 8.1)

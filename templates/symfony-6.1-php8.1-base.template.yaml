@@ -1,7 +1,7 @@
 version: 1
 
 info:
-  id: symfonycorp/sf6.1-php8.1-base
+  id: symfonycorp/symfony-6.1-php8.1-base
   name: Symfony 6.1/PHP 8.1/base
   description: |
       <p>This template provides a Symfony 6.1 skeleton based on the base skeleton.</p>
@@ -21,7 +21,7 @@ info:
           PHP 8.1<br />
           Automatic TLS certificates<br />
 initialize:
-  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@sf6.1-php8.1-base
+  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@symfony-6.1-php8.1-base
   config: null
   files: []
   profile: Symfony 6.1 ("base skeleton" on PHP 8.1)

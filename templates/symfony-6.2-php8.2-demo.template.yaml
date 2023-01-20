@@ -1,12 +1,11 @@
 version: 1
 
 info:
-  id: symfonycorp/symfony-5.4-php8.2-webapp
-  name: Symfony 5.4/PHP 8.2/webapp
+  id: symfonycorp/symfony-6.2-php8.2-demo
+  name: Symfony 6.2/PHP 8.2/demo
   description: |
-      <p>This template provides a Symfony 5.4 skeleton based on the webapp skeleton.</p>
-      <p>It is intended for you to use as a starting point and modify for your own needs.</p>
-      <p>It comes pre-configured with a lot of Symfony packages, including Symfony Messenger and PostgreSQL via Doctrine.</p>
+      <p>This template provides a Symfony 6.2 demo.</p>
+      <p>The "Symfony Demo Application" is a reference application created to show how to develop applications following the Symfony Best Practices.</p>
   tags:
   - PHP
   - Symfony
@@ -16,13 +15,12 @@ info:
   notes:
     - heading: "Features"
       content: |
-          Symfony 5.4<br />
-          The webapp package that includes most of the needed features for developing web applications<br />
+          Symfony 6.2<br />
+          The Symfony demo application to test Symfony and see how to implement common features<br />
           PHP 8.2<br />
-          PostgreSQL 13<br />
           Automatic TLS certificates<br />
 initialize:
-  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@symfony-5.4-php8.2-webapp
+  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@symfony-6.2-php8.2-demo
   config: null
   files: []
-  profile: Symfony 5.4 ("webapp" on PHP 8.2)
+  profile: Symfony 6.2 ("demo" on PHP 8.2)

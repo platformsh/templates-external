@@ -19,7 +19,7 @@ info:
           Symfony 5.4<br />
           The webapp package that includes most of the needed features for developing web applications<br />
           PHP 8.2<br />
-          PostgreSQL 13<br />
+          PostgreSQL 15<br />
           Automatic TLS certificates<br />
 initialize:
   repository: https://github.com/symfonycorp/platformsh-symfony-template.git@symfony-5.4-php8.2-webapp

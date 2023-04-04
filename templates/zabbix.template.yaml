@@ -1,0 +1,45 @@
+# The schema is versioned so that we can establish code paths differently in the future if we need to change this.
+version: 1
+
+# Templates are a small amount of information supporting a template URL.
+# Each template is selectable at the project-creation step.
+info:
+    # Unique machine name, prefaced by a vendor or organization identifier
+    id: contextualcode/zabbix
+    # The human-readable name of the template.  This is how the template will be named in the user interface.
+    name: Zabbix
+    # Human-readable descriptive text for the template. Supports limited HTML.
+    description: |
+        <p>This template provides <b>Zabbix (5.2.0)</b> support. You can add any PHP application on top of this template. <br> The Platform.sh Zabbix template is made by <a href="https://www.contextualcode.com/" target="_blank">Contextual Code</a> team.</p>
+        <p>Zabbix is an open source monitoring solution.</p>
+    # A list of tags associated with the template.
+    tags:
+        - PHP
+        - Zabbix
+    # An image URI (either base64-encoded or a URL) representing the template.  Base64-encoded SVG strongly preferred.
+    image: "data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjY1NSIgdmlld0JveD0iMCAwIDQwMC44MyAxMDQuOTkiIHdpZHRoPSIyNTAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0wIDBoNDAwLjgzdjEwNC45OWgtNDAwLjgzem0wIDAiIGZpbGw9IiNkNDAwMDAiLz48cGF0aCBkPSJtMTcuMTQgMTZoNTcuOTZ2Ny41M2wtNDYuNjUgNTcuMTVoNDcuNzl2OC4zMWgtNjAuMjR2LTcuNTNsNDYuNjUtNTcuMTVoLTQ1LjUxem05OC4zIDkuNzMtMTMuNTQgMzYuMzNoMjcuMTN6bS01LjY0LTkuNzNoMTEuMzJsMjguMTIgNzIuOTloLTEwLjM4bC02LjcxLTE4LjcyaC0zMy4yN2wtNi43MiAxOC43MmgtMTAuNTN6bTYwLjE0IDM4LjEzdjI2Ljc0aDE2LjAxYzUuMzcgMCA5LjM1LTEuMSAxMS45NC0zLjNzMy44OC01LjU3IDMuODgtMTAuMDljMC00LjU2LTEuMjktNy45My0zLjg4LTEwLjEtMi41OS0yLjE2LTYuNTctMy4yNS0xMS45NC0zLjI1em0wLTMwLjAydjIyaDE0Ljc4YzQuODggMCA4LjUxLS45MSAxMC45LTIuNzEgMi4zOS0xLjgxIDMuNTgtNC41NyAzLjU4LTguMjggMC0zLjY4LTEuMi02LjQ0LTMuNTgtOC4yNi0yLjM5LTEuODItNi4wMi0yLjc0LTEwLjktMi43NGgtMTQuNzh6bS05Ljk4LTguMTFoMjUuNWM3LjYxIDAgMTMuNDggMS41NiAxNy41OSA0LjY5IDQuMTIgMy4xMyA2LjE3IDcuNTggNi4xNyAxMy4zNSAwIDQuNDYtMS4wNSA4LjAyLTMuMTYgMTAuNjZzLTUuMjEgNC4yOS05LjI5IDQuOTRjNC45MSAxLjA0IDguNzIgMy4yMSAxMS40NCA2LjUyczQuMDggNy40NCA0LjA4IDEyLjM5YzAgNi41Mi0yLjI0IDExLjU1LTYuNzIgMTUuMTEtNC40OCAzLjU1LTEwLjg2IDUuMzMtMTkuMTIgNS4zM2gtMjYuNDl6bTc4LjMyIDM4LjEzdjI2Ljc0aDE2LjAyYzUuMzcgMCA5LjM1LTEuMSAxMS45My0zLjMgMi41OS0yLjIgMy44OC01LjU3IDMuODgtMTAuMDkgMC00LjU2LTEuMjktNy45My0zLjg4LTEwLjEtMi41OS0yLjE2LTYuNTctMy4yNS0xMS45My0zLjI1em0wLTMwLjAydjIyaDE0Ljc4YzQuODggMCA4LjUxLS45MSAxMC45LTIuNzEgMi4zOS0xLjgxIDMuNTgtNC41NyAzLjU4LTguMjggMC0zLjY4LTEuMTktNi40NC0zLjU4LTguMjZzLTYuMDItMi43NC0xMC45LTIuNzRoLTE0Ljc4em0tOS45OC04LjExaDI1LjVjNy42MSAwIDEzLjQ4IDEuNTYgMTcuNTkgNC42OSA0LjEyIDMuMTMgNi4xOCA3LjU4IDYuMTggMTMuMzUgMCA0LjQ2LTEuMDUgOC4wMi0zLjE2IDEwLjY2cy01LjIxIDQuMjktOS4yOSA0Ljk0YzQuOTEgMS4wNCA4LjcyIDMuMjEgMTEuNDQgNi41MnM0LjA4IDcuNDQgNC4wOCAxMi4zOWMwIDYuNTItMi4yNCAxMS41NS02LjcyIDE1LjExLTQuNDggMy41NS0xMC44NiA1LjMzLTE5LjEyIDUuMzNoLTI2LjV6bTk3LjI0IDBoMTAuOThsMTcuMzUgMjYuMjEgMTcuNTItMjYuMjFoMTAuNjFsLTIyLjg0IDM0LjE5IDI1LjY4IDM4LjhoLTEwLjk4bC0yMC4yMS0zMC41NC0yMC40MSAzMC41NGgtMTAuNjFsMjUuNzQtMzguNTJ6bS0yOC45MSAwaDkuOTh2NzIuOTloLTkuOTh6bTAgMCIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg"
+    # Additional notes displayed in the template's detail view.
+    # Each note object is displayed as a small section heading with content below. Supports limited HTML.
+    # The most important is a section that lists the "Apps and Services" (container images) that the project uses.
+    # These are the name/version of the Platforms.h containers, not including the Nginx router.
+    notes:
+        - heading: "Features"
+          content: |
+              PHP 7.4<br />
+              MySQL 10.4<br />
+              [Optional] Redis 5.0<br />
+              [Optional] Varnish 7.7<br />
+              [Optional] Varnish 6.0<br />
+              Custom script based build<br />
+
+# This key describes the initialization call made to the master environment at
+# project creation time. This is part of the full v2 UI operation mode, which
+# places project schema/options selection early in the creation process, rather
+# than later as it exits now. To allow this schema to be backwards-compatible,
+# this key also gets mapped to the appropriate location in project.settings so
+# that the current UI can have its own workflow overridden as well.
+initialize:
+    repository: git@gitlab.com:contextualcode/platformsh-zabbix-template.git
+    config: null
+    files: []
+    profile: Zabbix

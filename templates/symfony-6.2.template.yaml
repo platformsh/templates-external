@@ -7,6 +7,7 @@ info:
       <p>This template provides a Symfony 6.2 skeleton based on the webapp skeleton.</p>
       <p>It is intended for you to use as a starting point and modify for your own needs.</p>
       <p>It comes pre-configured with a lot of Symfony packages, including Symfony Messenger and PostgreSQL via Doctrine.</p>
+  featured: true
   tags:
   - PHP
   - Symfony

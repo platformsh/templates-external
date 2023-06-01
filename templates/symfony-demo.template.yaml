@@ -1,10 +1,10 @@
 version: 1
 
 info:
-  id: symfonycorp/symfony-6.2-php8.2-demo
-  name: Symfony 6.2/PHP 8.2/demo
+  id: symfonycorp/symfony-6.3-php8.2-demo
+  name: Symfony 6.3/demo
   description: |
-      <p>This template provides a Symfony 6.2 demo.</p>
+      <p>This template provides a Symfony 6.3 demo.</p>
       <p>The "Symfony Demo Application" is a reference application created to show how to develop applications following the Symfony Best Practices.</p>
   tags:
   - PHP
@@ -15,12 +15,12 @@ info:
   notes:
     - heading: "Features"
       content: |
-          Symfony 6.2<br />
+          Symfony 6.3<br />
           The Symfony demo application to test Symfony and see how to implement common features<br />
           PHP 8.2<br />
           Automatic TLS certificates<br />
 initialize:
-  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@symfony-6.2-php8.2-demo
+  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@symfony-6.3-php8.2-demo
   config: null
   files: []
-  profile: Symfony 6.2 ("demo" on PHP 8.2)
+  profile: Symfony 6.3 ("demo" on PHP 8.2)

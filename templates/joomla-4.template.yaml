@@ -13,7 +13,7 @@ info:
     description: |
       <p>This unofficial template allows a hassle-free, automated installation of Joomla! 4</p>
       <p>It aims to strike a balance between the devops provided by Platform.sh and Joomla's ability to manage itself.</p>
-      <p>Joomla! itself is stored in a mount, allowing it to self-update and install modules, while custom templates are stored in git and synced into the web directory at deploy time.</p>
+      <p>Joomla! itself is stored in a mount, allowing it to self-update and install extensions, while custom templates are stored in git and synced into the web directory at deploy time.</p>
 
     tags:
         - PHP

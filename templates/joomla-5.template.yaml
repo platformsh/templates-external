@@ -1,17 +1,17 @@
-# Platform.sh template for unofficial Joomla! 4 support.
+# Platform.sh template for unofficial Joomla! support.
 
 version: 1
 
 info:
     # Unique machine name, prefaced by a vendor or organization identifier.
-    id: joomla/joomla-4
+    id: joomla/joomla-5
 
     # The human-readable name of the template.  This is how the template will be named in the user interface.
-    name: Joomla! 4
+    name: Joomla! 5
 
     # Human-readable descriptive text for the template. Supports limited HTML.
     description: |
-      <p>This unofficial template allows a hassle-free, automated installation of Joomla! 4</p>
+      <p>This unofficial template allows a hassle-free, automated installation of Joomla! 5</p>
       <p>It aims to strike a balance between the devops provided by Platform.sh and Joomla's ability to manage itself.</p>
       <p>Joomla! itself is stored in a mount, allowing it to self-update and install extensions, while custom templates are stored in git and synced into the web directory at deploy time.</p>
 
@@ -25,7 +25,7 @@ info:
     # Additional notes displayed in the template's detail view.
     notes:
         - heading: "Apps & Services"
-          content: "PHP 8.1<br/>MariaDB 10.2"
+          content: "PHP 8.2<br/>MariaDB 11.2"
 
 initialize:
     repository: https://gitlab.com/woolwichweb/joomla-on-platformsh.git

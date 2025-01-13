@@ -8,23 +8,16 @@ dopPrefix = "https://console.platform.sh/projects/create-project?template=https:
 
 # Hardcode runtimes for now.
 runtimes = {
-    "Symfony 6.0/PHP 8.1/demo": "php",
-    "Symfony 5.4/PHP 8.1/webapp": "php",
-    "Symfony 6.0/PHP 8.0/base": "php",
-    "Symfony 5.4/PHP 8.0/webapp": "php",
-    "Restyaboard": "php",
-    "Symfony 5.4/PHP 8.0/base": "php",
-    "redirection.io": "golang",
-    "eZ Platform v2": "php",
-    "Pizzly": "nodejs",
     "OpenideaL": "php",
-    "eZ Platform v3": "php",
-    "Varbase (Drupal 9)": "php",
-    "Symfony 5.4/PHP 8.1/base": "php",
-    "Symfony 6.0/PHP 8.1/webapp": "php",
-    "Symfony 6.0/PHP 8.1/base": "php",
-    "Symfony 6.0/PHP 8.0/webapp": "php",
-    "Symfony 6.0/PHP 8.0/demo": "php",
+    "Pizzly": "nodejs",
+    "redirection.io": "golang",
+    "Restyaboard": "php",
+    "Symfony 5.4/webapp": "php",
+    "Symfony 6.2/webapp": "php",
+    "Symfony 6.3/demo": "php",
+    "Symfony 6.3/webapp": "php",
+    "Varbase (Drupal 10)": "php",
+    "Zabbix": "php",
 }
 uniqueRuntimes = list(set(list(runtimes.values())))
 data = dict([(key, []) for key in uniqueRuntimes])

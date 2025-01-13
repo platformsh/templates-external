@@ -6,7 +6,7 @@ To add or update a template definition, please make a Pull Request against this 
 
 The Pull Request will be evaluated by our team, who may offer feedback and request changes before it is accepted.
 
-Use the [`template-definition.yaml`](template-definition.yaml) as a starting point.  It should be reasonably well-documented.  If you have questions, please reach out to the Platform.sh Developer Relations team via the [Platform.sh Slack channel](https://chat.platform.sh/).
+Use the [`template-definition.yaml`](template-definition.yaml) as a starting point.  It should be reasonably well-documented.  If you have questions, please reach out to the Platform.sh Developer Relations team on [Discord](https://chat.platform.sh/).
 
 Note that you do not need to include the template definition file in your project repository, just this one.  The project repository linked from the template definition file can be any publicly-accessible Git URL.
 

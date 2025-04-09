@@ -12,6 +12,7 @@ runtimes = {
     "Pizzly": "nodejs",
     "redirection.io": "golang",
     "Restyaboard": "php",
+    "Sylius": "php",
     "Symfony 5.4/webapp": "php",
     "Symfony 6.2/webapp": "php",
     "Symfony 6.3/demo": "php",

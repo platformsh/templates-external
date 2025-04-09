@@ -1,0 +1,32 @@
+version: 1
+
+info:
+  id: platformsh/sylius
+  name: Sylius
+  description: |
+      <p>This template builds a Sylius application for Platform.sh, which can be used as a starting point for developing complex e-commerce applications.</p>
+      <p>Sylius is a modern e-commerce solution for PHP, based on Symfony Framework.</p>
+  class: starter
+  tags:
+  - PHP
+  - Commerce
+  - Headless
+  - Sylius
+  - Symfony
+  related_blog_tags:
+  - Sylius
+  image: data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KPHBhdGggZmlsbD0iIzMwYmE5ZCIgZD0iTTEwLjIsMjguMWw5LjYsMTkuMmwxNy43LDBsNC4zLTZMMTAuMiwyOC4xTDEwLjIsMjguMXoiLz4KPHBhdGggZmlsbD0iIzFhOWY4MyIgZD0iTTMuNSwzMC4yTDE2LjQsNDhsMjEuMSwwbDQuMy02LjZMMy41LDMwLjJ6IE0xOSw4LjdsNi4zLDQuOUwzMSwyLjZMMjksMS40QzI5LDEuNCwxOSw4LjcsMTksOC43eiIvPgo8cGF0aCBmaWxsPSIjMzBiYTlkIiBkPSJNMzcuNSw0OEwxOSw4LjdsNC0yLjlsMjEuNSwzMS40TDM3LjUsNDh6IE0yNy4yLDIuN2wxMi4xLDkuN0wzMC44LDBDMzAuOCwwLDI3LjIsMi43LDI3LjIsMi43eiIvPgo8L3N2Zz4K
+
+  notes:
+    - heading: "Features"
+      content: |
+          PHP 8.3<br />
+          MySQL 11.0<br />
+          Automatic TLS certificates<br />
+          composer-based build<br />
+
+initialize:
+  repository: https://github.com/Sylius/Sylius-Standard.git@2.0
+  config: null
+  files: []
+  profile: Sylius

@@ -22,7 +22,7 @@ info:
           PostgreSQL 16<br />
           Automatic TLS certificates<br />
 initialize:
-  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@symfony-7.2-php8.4-webapp
+  repository: https://github.com/symfonycorp/platformsh-symfony-template.git@sf7.2-php8.4-webapp
   config: null
   files: []
   profile: Symfony 7.2 ("webapp" on PHP 8.4)

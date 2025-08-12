@@ -6,10 +6,10 @@ info:
   # Unique machine name, prefaced by a vendor or organization identifier
   id: vardot/varbase10
   # The human-readable name of the template.
-  name: Varbase (Drupal 10)
+  name: Varbase
   # Human-readable descriptive text for the template. Supports limited HTML.
   description: |
-    <p>This template builds Varbase; the feature-rich Drupal 10 distribution using the Drupal Composer project. It is pre-configured to use MariaDB and Redis for caching. The Drupal installer will skip asking for database credentials as they are already provided.</p>
+    <p>This template builds Varbase, the feature-rich Drupal distribution using the Drupal Composer project. It is pre-configured to use MariaDB and Redis for caching. The Drupal installer will skip asking for database credentials as they are already provided.</p>
     <p>Varbase is an enhanced Drupal distribution packed with adaptive functionalities and essential modules that speed up your development, and provides you with standardized configurations making your life easier.</p>
 
   # A list of tags associated with the template.
@@ -25,7 +25,7 @@ info:
   notes:
     - heading: "Features"
       content: |
-        PHP 8.2<br />
+        PHP 8.3<br />
         MariaDB 10.4<br />
         Redis 6<br />
         Drush included<br />
